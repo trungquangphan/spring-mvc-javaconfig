@@ -7,8 +7,8 @@ List of some technies:
 
 1. Cross field validation
 2. Global exeption handler with @ControllerAdvice
-3. Enable theming support in Spring MVC with Thymeleaf - a very lightweight template engine.
-4. Event handling (internal event - event processing within a application.
+3. Enable theming support in Spring MVC with Thymeleaf - a very lightweight template engine
+4. Event handling (internal event - event processing within a application
  
     Refer to the project:
     https://github.com/trungquangphan/spring-event-handling
