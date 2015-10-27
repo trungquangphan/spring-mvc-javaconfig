@@ -5,3 +5,4 @@ This project demo the basic techniques during the development of a web applicati
 
 1. Cross field validation
 2. Global exeption handler with @ControllerAdvice
+3. Enable theming support in Spring MVC with Thymeleaf - a very lightweight template engine.
