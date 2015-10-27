@@ -8,6 +8,10 @@ import javax.validation.constraints.AssertTrue;
 
 /**
  * Created by doomphantom on 23/10/2015.
+ * I use 3 ways to validate 'state' and 'country' value which is the typical example of cross field validation.
+ * + Use isValid() that annotated by constraints annotation, ex: @AssertTrue;
+ * + Define annotation at class level (@Target=ElementType.TYPE) and only validate User as a acceptable type.
+ * + Define annotation at class level (@Target=ElementType.TYPE) and specify the fieldnames that its value need to be validated.
  */
 //@ValidState
 @ValidState(country = "country", state = "state")
