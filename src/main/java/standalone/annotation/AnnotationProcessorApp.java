@@ -14,7 +14,9 @@ import javax.annotation.PostConstruct;
 @ComponentScan
 public class AnnotationProcessorApp {
     public static void main(String[] args) {
-        new AnnotationConfigApplicationContext(AnnotationProcessorApp.class);
+        AnnotationConfigApplicationContext annotationConfigApplicationContext = new AnnotationConfigApplicationContext(AnnotationProcessorApp.class);
+        annotationConfigApplicationContext.addBeanFactoryPostProcessor(new PushNotificatoinAnnotationProcessor());
+        annotationConfigApplicationContext.refresh();
     }
 
     @Autowired
